@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "noErrorTruncation": true,
+    "resolveJsonModule": true,
+
+    "target": "esnext",
+    "module": "commonjs",
+    "jsx": "react",
+    "declaration": true,
+    "noEmit": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ]
+  }
+}

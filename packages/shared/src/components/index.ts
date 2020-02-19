@@ -1,1 +1,3 @@
-export * from './Button';
+import SharedButton from './SharedButton';
+
+export { SharedButton };

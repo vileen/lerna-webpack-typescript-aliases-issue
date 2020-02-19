@@ -1,13 +1,16 @@
 {
-  "name": "root",
+  "name": "minerva-control-center-frontend",
   "private": true,
-  "devDependencies": {
-    "lerna": "^3.19.0"
-  },
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "test": "jest --config ./jest.config.js"
+  },
   "engines": {
     "yarn": "^1.12.3"
+  },
+  "devDependencies": {
+    "lerna": "^3.19.0"
   }
 }
